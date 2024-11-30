@@ -24,7 +24,7 @@ const Profile = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:7000/api/userDet",
+          "https://star-tex-backend.vercel.app/api/userDet",
           { token }
         );
 
