@@ -347,7 +347,7 @@ const MainPage = () => {
                   padding: "15px",
                   borderRadius: "10px",
                   display: "flex",
-                  flexDirection: "row-reverse",
+                  flexDirection: "column",
                   justifyContent: "space-between",
                   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
                   
