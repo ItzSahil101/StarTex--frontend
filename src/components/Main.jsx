@@ -330,7 +330,7 @@ const MainPage = () => {
         </aside>
       )}
       {/* Post List Section */}
-      <div style={{ padding: "20px",   flexDirection: "row-reverse" }}>
+      <div style={{ padding: "20px"}}>
         {posts.length > 0 ? (
           <div
             style={{
