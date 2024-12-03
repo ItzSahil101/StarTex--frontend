@@ -330,14 +330,13 @@ const MainPage = () => {
         </aside>
       )}
       {/* Post List Section */}
-      <div style={{ padding: "20px" }}>
+      <div style={{ padding: "20px",   flexDirection: "row-reverse" }}>
         {posts.length > 0 ? (
           <div
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
               gap: "20px",
-              flexDirection: "row-reverse",
             }}
           >
             {posts.map((post, index) => (
