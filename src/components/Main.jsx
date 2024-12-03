@@ -347,9 +347,10 @@ const MainPage = () => {
                   padding: "15px",
                   borderRadius: "10px",
                   display: "flex",
-                  flexDirection: "column",
+                  flexDirection: "row-reverse",
                   justifyContent: "space-between",
                   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                  
                 }}
               >
                 <h3 style={{ color: "#fff", marginBottom: "10px" }}>
